@@ -8,6 +8,16 @@ body {
   flex-direction: column;
 }
 
+.wrapper-first-scr {
+    height: 780px;
+    background-image: url(../assets/images/Giant-Panda.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
 header {
   height: 80px;
   background-color: #000000;
@@ -20,6 +30,7 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo-wrapper {
@@ -29,6 +40,7 @@ header {
   border: 1.18841px solid #ffffff;
   box-sizing: border-box;
   text-decoration: none;
+  position: relative;
 }
 
 .logo-text {
@@ -42,7 +54,17 @@ header {
 }
 
 .logo-picture {
-    background-image: url(../assets/images/bamboo.png);
+  background-image: url(../assets/images/bamboo.svg);
+  width: 7.03px;
+  height: 20.98px;
+  position: absolute;
+  top: 24.64px;
+  left: 13.23px;
+}
+
+header nav {
+  width: 526px;
+  margin-right: 709px;
 }
 
 .nav-menu {
@@ -53,5 +75,10 @@ header {
 
 .nav-menu-item a {
   text-decoration: none;
-
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
 }
