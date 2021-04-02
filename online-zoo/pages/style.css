@@ -44,7 +44,7 @@ header {
 }
 
 .logo-text {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19.0145px;
@@ -75,12 +75,18 @@ header nav {
 
 .nav-menu-item a {
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+}
+
+.nav-menu-item a.activ,
+.footer-nav ul li a.activ {
+  color: #F9804B;
+  cursor: default;
 }
 
 .first-section {
@@ -106,7 +112,7 @@ header nav {
   left: 73px;
   /* left: calc(50% - 500.31px/2 + 330.15px);
 top: 166px; */
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 106.496px;
@@ -127,7 +133,7 @@ top: 166px; */
   margin: 69px 0 0 983px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -188,7 +194,7 @@ top: 166px; */
 
 .backstage-title {
   height: 116px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -199,7 +205,7 @@ top: 166px; */
 .backstage-first-text {
   margin-top: 20px;
   /*   height: 42px; */
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -211,7 +217,7 @@ top: 166px; */
   margin-top: 54px;
   width: 217px;
   height: 29px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -222,7 +228,7 @@ top: 166px; */
 .backstage-second-text {
   margin-top: 34px;
   height: 105px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -294,7 +300,7 @@ top: 166px; */
 }
 
 .slider-item-title {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -304,7 +310,7 @@ top: 166px; */
 }
 
 .slider-item-subtitle {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -322,7 +328,7 @@ top: 166px; */
   height: 54px;
   background: #fe9013;
   border-radius: 25px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -400,7 +406,7 @@ top: 166px; */
   margin-top: 41px;
   width: 463px;
   height: 58px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -415,7 +421,7 @@ top: 166px; */
   width: 843px;
   height: 29px;
   align-self: start;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -428,7 +434,7 @@ top: 166px; */
   margin-left: 99px;
   align-self: start;
   width: 1061px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -442,7 +448,7 @@ top: 166px; */
   width: 863px;
   height: 42px;
   align-self: start;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -462,7 +468,7 @@ top: 166px; */
 
 .pick-friend-subtitle {
   margin-top: 60px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -500,7 +506,7 @@ top: 166px; */
   margin-top: 30px;
   width: 168px;
   height: 46px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -518,7 +524,7 @@ top: 166px; */
   height: 54px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -548,7 +554,7 @@ top: 166px; */
 }
 
 .testimonials-title {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -591,7 +597,7 @@ top: 166px; */
 }
 
 .user-name {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -607,7 +613,7 @@ top: 166px; */
 }
 
 .posting-data li {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -619,7 +625,7 @@ top: 166px; */
   margin: 10px 15px 19px 16px;
   width: 237px;
   height: 309px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -672,7 +678,7 @@ top: 166px; */
   height: 54px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 5px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -726,7 +732,7 @@ footer {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 5px;
   border: none;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -753,7 +759,7 @@ footer {
 
 .socials-nets li a p {
   margin-left: 12px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -786,7 +792,7 @@ footer {
 
 .footer-nav ul li a {
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -803,7 +809,7 @@ footer {
 }
 
 .footer-third-column h6 {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -823,7 +829,7 @@ footer {
   border: 0.7px solid #f9804b;
   background: none;
   padding-left: 10px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -832,7 +838,7 @@ footer {
 }
 
 .email::placeholder {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -848,7 +854,7 @@ footer {
   border: 1px solid #4b9200;
   box-sizing: border-box;
   border-radius: 5px;
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -857,7 +863,7 @@ footer {
 }
 
 .footer-third-column p {
-  font-family: "Roboto";
+  font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
