@@ -89,6 +89,11 @@ header nav {
   cursor: default;
 }
 
+.nav-menu-item a:hover,
+.footer-nav ul li a:hover {
+  color: #F9804B;  
+}
+
 .first-section {
   width: 1600px;
   margin: 0 auto;
@@ -142,6 +147,13 @@ top: 166px; */
   text-transform: uppercase;
   color: #ffffff;
   border: none;
+  display: grid;
+  text-decoration: none;
+  align-items: center;
+}
+
+.watch-online-btn:hover {
+  background: #4B9200;
 }
 
 .second-section {
@@ -258,6 +270,10 @@ top: 166px; */
   cursor: pointer;
 }
 
+.arrow:hover {
+  background: #4B9200;
+}
+
 .arrow svg {
   width: 16px;
   height: 8px;
@@ -284,7 +300,27 @@ top: 166px; */
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  overflow: hidden;
+  
 }
+
+.slider-item img,
+.slider-item-text  {
+  transition: transform 1s;
+  
+}
+
+.slider-item:hover .animal-foto {
+  transform: scale(1.1);
+
+}
+
+.slider-item:hover .slider-item-text {
+  transform: translate(0, -60px);
+  background-color: rgba(98, 97, 97, 0.705);
+
+}
+
 
 .slider-item-description {
   display: flex;
@@ -339,6 +375,13 @@ top: 166px; */
   border: none;
   align-self: center;
   cursor: pointer;
+  text-decoration: none;
+  display: grid;
+  align-items: center;
+}
+
+.choose-favorite-btn:hover {
+  background: #4B9200;
 }
 
 .palm-decor {
@@ -404,7 +447,7 @@ top: 166px; */
 
 .pick-friend-title {
   margin-top: 41px;
-  width: 463px;
+  width: 465px;
   height: 58px;
   font-family: "Roboro", sans-serif;
   font-style: normal;
@@ -418,7 +461,7 @@ top: 166px; */
 .pick-friend-first-text {
   margin-top: 30px;
   margin-left: 99px;
-  width: 843px;
+  width: 853px;
   height: 29px;
   align-self: start;
   font-family: "Roboro", sans-serif;
@@ -445,7 +488,7 @@ top: 166px; */
 .pick-friend-third-text {
   margin-top: 10px;
   margin-left: 99px;
-  width: 863px;
+  width: 873px;
   height: 42px;
   align-self: start;
   font-family: "Roboro", sans-serif;
@@ -534,6 +577,14 @@ top: 166px; */
   color: #ffffff;
   border: none;
   cursor: pointer;
+  display: grid;
+  align-items: center;
+  text-decoration: none;
+}
+
+.feed-friend-btn:hover {
+  background: #4B9200;
+
 }
 
 .fourth-section {
@@ -691,6 +742,11 @@ top: 166px; */
   cursor: pointer;
 }
 
+.leave-feedback-btn:hover {
+  background: #4B9200;
+ 
+}
+
 .dekor-leav {
   width: 247px;
   height: 296px;
@@ -741,6 +797,14 @@ footer {
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+  text-decoration: none;
+  display: grid;
+  align-items: center;
+}
+
+.donate-volunteers:hover {
+  background: #4B9200;
+
 }
 
 .socials-nets li {
@@ -755,6 +819,14 @@ footer {
   display: flex;
   text-decoration: none;
   align-items: center;
+}
+
+.socials-nets li a:hover .socials-icon {
+  background: #4B9200;  
+}
+
+.socials-nets li a:hover p {
+  color: #4B9200;  
 }
 
 .socials-nets li a p {
@@ -837,6 +909,14 @@ footer {
   color: #bdbdbd;
 }
 
+.email:invalid,
+.email:invalid::placeholder {
+  border: 0.7px solid #D31414;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #D31414;
+}
+
 .email::placeholder {
   font-family: "Roboro", sans-serif;
   font-style: normal;
@@ -845,6 +925,14 @@ footer {
   line-height: 140%;
   color: #bdbdbd;
 }
+
+.submit-btn:invalid {
+  border: 1px solid #D31414;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #D31414;
+}
+
 
 .submit-btn {
   margin-left: 10px;
@@ -860,6 +948,7 @@ footer {
   font-size: 16px;
   line-height: 140%;
   color: #688a44;
+  cursor: pointer;
 }
 
 .footer-third-column p {
