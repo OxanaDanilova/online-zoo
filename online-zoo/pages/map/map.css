@@ -239,6 +239,124 @@ header nav {
   left: 274px;
 }
 
+.popup {
+  height: 109px;
+  width: 159px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 5px;
+  position: relative;
+  display: grid;
+  z-index: 10;
+}
+
+.popup::after {
+  position: absolute;
+  content: "";
+  width: 11px;
+  height: 10px;
+  top: -6px;
+  left: 55px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000 transparent transparent #000000;
+  box-sizing: border-box;
+  border-radius: 0px;
+  transform: matrix(0.5, 0.7, -0.38, 0.71, 1, 1);
+}
+
+.popup-alligators {
+  position: absolute;
+  top: 444px;
+  left: 228px;
+  visibility: hidden;
+}
+
+.popup-eagles {
+  position: absolute;
+  top: 437px;
+  left: 100px;
+  visibility: hidden;
+}
+
+.popup-gorillas {
+  position: absolute;
+  top: 552px;
+  left: 502px;
+  visibility: hidden;
+
+}
+
+.popup-pandas {
+  position: absolute;
+  top: 443px;
+  left: 772px;
+  visibility: hidden;
+}
+
+.popup p {
+  margin-left: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  text-align: left;
+}
+
+.eagle-block,
+.crocodile-block,
+.gorillas-block,
+.panda-block {
+  cursor:pointer;  
+}
+
+.eagle-block:hover .popup-eagles,
+.crocodile-block:hover .popup-alligators,
+.gorillas-block:hover .popup-gorillas,
+.panda-block:hover .popup-pandas {
+  visibility: visible;
+}
+
+.popup-eagles:hover,
+.popup-alligators:hover,
+.popup-gorillas:hover,
+.popup-pandas:hover  {
+  visibility: visible;
+}
+
+.crocodile-block:hover svg path,
+.eagle-block:hover svg path,
+.gorillas-block:hover svg path,
+.panda-block:hover svg path { 
+  fill: #f9804b;  
+}
+
+.animal {
+  margin-top: 10px;
+}
+
+.watch-online {
+  margin-top: 11px;
+  height: 31px;
+  width: 136px;
+  border-radius: 5px;
+  background: #f1f3f2;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4b9200;
+  cursor: pointer;
+  justify-self: center;
+}
+
 footer {
   height: 443px;
   background-color: #111115;
@@ -447,3 +565,5 @@ footer {
 .rss {
   margin-top: 10px;
 }
+
+
