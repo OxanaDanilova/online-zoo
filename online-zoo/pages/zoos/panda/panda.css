@@ -90,7 +90,9 @@ main {
   background-color: blueviolet;
   grid-template-areas:
     "sidebar first"
+    "sidebar slider"
     "sidebar second";
+  grid-template-columns: 131px auto;
 }
 
 .sidebar {
@@ -171,10 +173,10 @@ main {
 
 .first-section {
   width: 1162px;
-  height: 724px;
+  /* height: 724px; */
   margin-top: 40px;
   background-color: #f9804b;
-  align-self: center;
+  justify-self: center;
   grid-area: first;
 
 }
@@ -188,6 +190,63 @@ main {
   font-size: 48px;
   line-height: 120%;
   color: #333b41;
+}
+
+.video-animal {
+  margin-top: 10px;
+  width: 1162px;
+  height: 652px;
+}
+
+.ytp-large-play-button .ytp-button {
+  width: 138px;
+  height: 78px;
+}
+
+.animal-slider-section {
+  margin-top: 80px;
+  width: 1324px;
+  height: 210px;
+  grid-area: slider;
+  justify-self: center;
+}
+
+.animal-slider {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.animal-slider-item {
+  pointer-events: none;
+}
+
+.animal-cam {
+  width: 268px;
+  height: 210px;
+}
+
+.arrow {
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background: #4B9200;
+}
+
+.arrow svg {
+  width: 16px;
+  height: 8px;
+  color: #ffffff;
 }
 
 .second-section {
