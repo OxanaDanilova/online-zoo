@@ -86,14 +86,23 @@ header nav {
 
 main {
   display: grid;
-  align-items: center;
-  background-color: blueviolet;
+  align-items: center;  
   grid-template-areas:
     "sidebar first"
     "sidebar slider"
-    "sidebar information";
-  grid-template-columns: 131px auto;
+    "sidebar information"
+    "donate donate";    
+  grid-template-columns: 135px auto;
+
+}
+
+.main-wrapper {  
   position: relative;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
 }
 
 .sidebar {
@@ -175,9 +184,7 @@ main {
 
 .first-section {
   width: 1162px;
-  /* height: 724px; */
   margin-top: 40px;
-  background-color: #f9804b;
   justify-self: center;
   grid-area: first;
 }
@@ -341,8 +348,7 @@ main {
 }
 
 .information-second-wrapper {
-  margin-top: 62px;
-  background-color: darkmagenta;
+  margin-top: 62px;  
 }
 
 .information-block {
@@ -439,11 +445,34 @@ main {
   
 }
 
-.second-section {
-  height: 500px;
-  width: 500px;
-  background-color: crimson;
-  grid-area: second;
+.section-donate {
+  height: 390px; 
+  background-image: url(../../../assets/images/panda_bg-zoos.png);
+  background-size: cover;  
+  background-repeat: no-repeat;  
+  display: grid;
+  justify-content: center;
+  grid-area: donate;
+  
+}
+
+.donate-btn {
+  margin-top: 276px;
+  width: 298px;
+height: 54px;
+display: grid;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+text-decoration: none;
+align-items: center;
 }
 
 footer {
