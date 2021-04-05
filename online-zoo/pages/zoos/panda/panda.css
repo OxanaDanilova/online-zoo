@@ -90,7 +90,7 @@ main {
   grid-template-areas:
     "sidebar first"
     "sidebar slider"
-    "sidebar information"
+    "information information"
     "donate donate";    
   grid-template-columns: 135px auto;
 
@@ -258,11 +258,18 @@ main {
 }
 
 .information-section {
+  position: relative;
+  grid-area: information;
+  display: grid;
+
+}
+
+.information-wrapper {
   margin-top: 140px;
   height: 1852px;
   width: 1160px;
-  grid-area: information;
   justify-self: center;
+  
   
 }
 
