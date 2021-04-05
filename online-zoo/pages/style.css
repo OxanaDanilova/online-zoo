@@ -28,9 +28,7 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: aqua;
-  opacity: 0.5;
+  align-items: center;  
 }
 
 .logo-wrapper {
@@ -96,9 +94,7 @@ header nav {
 
 .first-section {
   width: 1600px;
-  margin: 0 auto;
-  background-color: aqua;
-  opacity: 0.5;
+  margin: 0 auto;  
 }
 
 .ellips {
@@ -114,9 +110,7 @@ header nav {
   width: 500.31px;
   height: 400px;
   top: 74px;
-  left: 73px;
-  /* left: calc(50% - 500.31px/2 + 330.15px);
-top: 166px; */
+  left: 73px;  
   font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -177,8 +171,7 @@ top: 166px; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: aqua;
+  justify-content: center;  
 }
 
 .backstage-wrapper {
