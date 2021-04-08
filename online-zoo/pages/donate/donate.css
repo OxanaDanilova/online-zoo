@@ -152,12 +152,12 @@ header nav {
 
 .donate-information-title {
   margin-top: 40px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 130%;
-color: #FE9013;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 130%;
+  color: #fe9013;
 }
 
 .feed-friend-block {
@@ -167,30 +167,76 @@ color: #FE9013;
   background: rgba(255, 255, 255, 0.52);
   backdrop-filter: blur(4px);
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .feed-friend-title {
   margin-top: 40px;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 120%;
-text-align: center;
-color: #FE9013;
-
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #fe9013;
 }
 
 .feed-friend-subtitle {
   width: 1095px;
-height: 29px;
-margin-top: 20px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 120%;
-color: #333B41;
+  height: 29px;
+  margin: 20px 0 0 92px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333b41;
+}
+
+.diet-block {
+  margin: 60px 0 0 307px;  
+  width: 532px;
+  height: 246px;
+  display: flex;
+}
+
+.daily-diet {
+  width: 159px;
+  margin-top: 105px;
+}
+
+.daily-diet-number {
+  height: 58px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.daily-diet-text {
+  margin-top: 11px;
+  width: 159px;
+  height: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #333b41;
+}
+
+.x-sign {
+  margin: 130px 0 0 11px;
+}
+
+.animal-diet-icon {
+  margin-left: 64px;
 }
 
 footer {
