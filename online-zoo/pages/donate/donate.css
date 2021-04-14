@@ -355,14 +355,59 @@ header nav {
   color: #fe9013;
 }
 
-/* .price {
-  display: flex;
-  width: 976px;
-height: 36px;
-margin-top: 6px;
-  justify-content: space-between;
-  align-self: center;
-} */
+.another-amount {
+  width: 268px;
+  height: 54px;
+  border: 1px solid #929699;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: transparent;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #929699;
+  padding-left: 9px;
+  outline: none;
+}
+
+.another-amount-wrapper {
+  position: relative;
+  margin: 102px 0 0 92px;
+  width: 268px;
+  height: 54px;
+}
+
+.another-amount-symbol {
+  position: absolute;
+  content: "$";
+  top: 17px;
+  right: 17px;
+  width: 10px;
+  height: 20px;
+  color: #929699;
+}
+
+.another-amount::-webkit-outer-spin-button,
+.another-amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.another-amount {
+  -moz-appearance: textfield;
+}
+
+.another-amount::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #929699;
+}
 
 footer {
   height: 443px;
