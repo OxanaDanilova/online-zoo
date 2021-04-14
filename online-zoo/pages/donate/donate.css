@@ -508,20 +508,18 @@ footer {
   margin: 41px auto 50px auto;
   width: 1160px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 120px 56px 178px;
 }
 
-.footer-first-column {
-  height: 352px;
-  width: 300px;
+.footer-first-row {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
-.footer-first-column .logo-wrapper {
-  margin-left: 0;
+.footer-third-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .donate-volunteers {
@@ -590,8 +588,11 @@ footer {
   align-items: center;
 }
 
+.footer-first-row .logo-wrapper {
+  margin-left: 0;
+}
+
 .footer-nav {
-  height: 352px;
   display: grid;
   align-items: flex-end;
 }
@@ -613,14 +614,7 @@ footer {
   color: #ffffff;
 }
 
-.footer-third-column {
-  height: 352px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-third-column h6 {
+.footer-first-row h6 {
   font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -690,7 +684,7 @@ footer {
   cursor: pointer;
 }
 
-.footer-third-column p {
+.footer-third-row p {
   font-family: "Roboro", sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -700,10 +694,118 @@ footer {
   align-self: flex-end;
 }
 
-.author {
-  margin-top: 216px;
-}
-
 .rss {
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+ 
+ .header-wrapper {
+  width: 1000px;
+  }
+
+  .logo-wrapper {
+    margin-left: 30px;
+    border: 1px solid #ffffff;
+  }
+
+  header nav {
+    width: 486px;
+    margin-right: 339px;
+  }
+
+  .first-section {
+    background-image: url(../../assets/images/donate-panda_bg-1000.png);
+    
+  }
+
+  .second-section {
+    height: 1333px;
+  }
+
+  .second-section-wrapper {
+    width: 940px;   
+  }
+
+  .donate-text {
+    margin-top: 30px;
+    height: 94px;
+    width: 940px;    
+  }
+
+  .feed-friend-block {
+    margin-top: 40px;
+    height: 918px;
+    width: 940px;
+    
+  }
+
+  .feed-friend-title {
+    margin-top: 20px;    
+  }
+
+  .feed-friend-subtitle {
+    width: 849px;
+    height: 29px;
+    margin: 10px 0 0 47px;
+  
+  }
+
+  .diet-block {
+    margin: 60px 0 0 196px;
+  }
+
+  .amount-text {
+    margin: 48px 0 0 65px;
+  }
+
+  .progress-bar {
+    width: 810px;
+    height: 27px;   
+  }
+
+  .progress-bar-line {
+    width: 785px;
+    height: 2px;   
+  }
+
+  .another-amount-wrapper {
+   margin: 60px 0 0 25px;    
+  }
+
+  .pay-type-wrapper label {
+    padding-left: 26px;
+  }
+
+  .footer-wrapper {
+    margin: 40px auto 50px auto;
+    width: 939px;    
+  }
+
+  .footer-nav ul {
+    width: 332px;        
+  }
+
+  .footer-first-row form {
+    margin-right: 32px;
+  }
+
+  .footer-third-row {
+    justify-content: unset;    
+  }
+
+  .footer-third-row  .footer-nav {
+    margin-left: 192px;
+  }
+
+  .footer-third-row  .wrapper-author-rss {
+    margin-left: 71px;
+  }
+
+
+
+    
+
+ 
+
 }
