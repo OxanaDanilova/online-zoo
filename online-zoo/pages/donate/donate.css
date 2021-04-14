@@ -409,6 +409,58 @@ header nav {
   color: #929699;
 }
 
+.pay-type-wrapper {
+  margin-top: 6px;
+  width: 218px;
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.pay-type-wrapper label {
+  margin-left: 33px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333b41;
+  cursor: pointer;
+  position: relative;
+  padding-left: 33px;
+}
+
+.pay-type {
+  position: absolute;
+  margin-right: 10px;
+  top: 2.5px;
+  left: 0;
+  opacity: 0;
+}
+
+.pay-type-wrapper span {
+  position: absolute;
+  top: 2.5px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #fe9013;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.pay-type:checked ~ span {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 2.5px;
+  background: #4b9200;
+  border: 1px solid #4b9200;
+  box-sizing: border-box;
+}
+
 footer {
   height: 443px;
   background-color: #111115;
