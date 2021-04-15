@@ -15,6 +15,10 @@ header {
   display: flex;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .header-wrapper {
   width: 1600px;
   margin: 0 auto;
@@ -46,7 +50,7 @@ header {
 }
 
 .logo-picture {
-  background-image: url(../assets/images/bamboo.svg);
+  background-image: url(../../assets/images/bamboo.svg);
   width: 7.03px;
   height: 20.98px;
   position: absolute;
@@ -516,6 +520,10 @@ footer {
   justify-content: space-between;
 }
 
+.socials-nets-icons {
+  display: none;
+}
+
 .footer-third-row {
   display: flex;
   justify-content: space-between;
@@ -699,9 +707,8 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
- 
- .header-wrapper {
-  width: 1000px;
+  .header-wrapper {
+    width: 1000px;
   }
 
   .logo-wrapper {
@@ -716,7 +723,6 @@ footer {
 
   .first-section {
     background-image: url(../../assets/images/donate-panda_bg-1000.png);
-    
   }
 
   .second-section {
@@ -724,31 +730,29 @@ footer {
   }
 
   .second-section-wrapper {
-    width: 940px;   
+    width: 940px;
   }
 
   .donate-text {
     margin-top: 30px;
     height: 94px;
-    width: 940px;    
+    width: 940px;
   }
 
   .feed-friend-block {
     margin-top: 40px;
     height: 918px;
     width: 940px;
-    
   }
 
   .feed-friend-title {
-    margin-top: 20px;    
+    margin-top: 20px;
   }
 
   .feed-friend-subtitle {
     width: 849px;
     height: 29px;
     margin: 10px 0 0 47px;
-  
   }
 
   .diet-block {
@@ -761,16 +765,16 @@ footer {
 
   .progress-bar {
     width: 810px;
-    height: 27px;   
+    height: 27px;
   }
 
   .progress-bar-line {
     width: 785px;
-    height: 2px;   
+    height: 2px;
   }
 
   .another-amount-wrapper {
-   margin: 60px 0 0 25px;    
+    margin: 60px 0 0 25px;
   }
 
   .pay-type-wrapper label {
@@ -779,11 +783,11 @@ footer {
 
   .footer-wrapper {
     margin: 40px auto 50px auto;
-    width: 939px;    
+    width: 939px;
   }
 
   .footer-nav ul {
-    width: 332px;        
+    width: 332px;
   }
 
   .footer-first-row form {
@@ -791,21 +795,211 @@ footer {
   }
 
   .footer-third-row {
-    justify-content: unset;    
+    justify-content: unset;
   }
 
-  .footer-third-row  .footer-nav {
+  .footer-third-row .footer-nav {
     margin-left: 192px;
   }
 
-  .footer-third-row  .wrapper-author-rss {
+  .footer-third-row .wrapper-author-rss {
     margin-left: 71px;
   }
+}
 
+@media only screen and (max-width: 640px) {
+  .header-wrapper {
+    width: 640px;
+  }
 
+  .header-wrapper .logo-wrapper {
+    width: 46.93px;
+    height: 29.03px;
+    margin-left: 20.07px;
+    border: 0.768116px solid #ffffff;
+  }
 
-    
+  .header-wrapper .logo-text {
+    font-size: 12.2899px;
+  }
 
- 
+  .header-wrapper .logo-picture {
+    position: absolute;
+    background-image: url(../../assets/images/bamboo.svg);
+    width: 4.54px;
+    height: 13.56px;
+    left: 5.48px;
+    top: 13.99px;
+  }
 
+  .nav-menu {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    width: 18px;
+    height: 10px;
+    cursor: pointer;
+  }
+
+  header nav {
+    width: 18px;
+    margin-right: 20px;
+  }
+
+  .first-section {
+    height: 335px;
+  }
+
+  .second-section {
+    height: 1333px;
+  }
+
+  .second-section-wrapper {
+    width: 600px;
+  }
+
+  .donate-title {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .donate-text {
+    margin-top: 20px;
+    height: 154px;
+    width: 600px;
+  }
+
+  .donate-information-title {
+    margin-top: 30px;
+  }
+
+  .feed-friend-block {
+    margin-top: 30px;
+    height: 918px;
+    width: 600px;
+  }
+
+  .feed-friend-title {
+    margin-top: 11px;
+  }
+
+  .feed-friend-subtitle {
+    width: 600px;
+    height: 58px;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+
+  .diet-block {
+    margin: 50px 0 0 27px;
+  }
+
+  .animal-diet-icon {
+    margin-left: 64px;
+  }
+
+  .amount-text {
+    margin: 41px 0 0 10px;
+  }
+
+  .progress-bar {
+    width: 600px;
+    height: 27px;
+    margin-top: 7px;
+  }
+
+  .progress-bar-line {
+    width: 524px;
+  }
+
+  .progress-bar-line-item:nth-child(1),
+  .progress-bar-line-item:nth-child(2),
+  .progress-bar-line-item:nth-child(3) {
+    display: none;
+  }
+
+  .another-amount-wrapper {
+    position: relative;
+    margin: 88px 0 0 10px;
+    width: 180px;
+    height: 42px;
+  }
+
+  .another-amount {
+    width: 180px;
+    height: 42px;
+    padding-left: 6.04px;
+  }
+
+  .another-amount-symbol {
+    top: 11px;
+    right: 10px;
+  }
+
+  .pay-type-wrapper {
+    margin-top: 41px;
+  }
+
+  .pay-type-wrapper label {
+    padding-left: 26px;
+  }
+
+  .feed-friend-btn {
+    margin-top: 30px;
+  }
+
+  footer {
+    height: 282px;
+  }
+
+  .footer-wrapper {
+    margin: 12px 20px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: 85px 56px 97px;
+  }
+
+  .socials-nets {
+    display: none;
+  }
+
+  .footer-first-row {
+    position: relative;
+  }
+
+  .socials-nets-icons {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .footer-third-row .footer-nav {
+    margin-left: 0;
+  }
+
+  .footer-nav ul {
+    width: 296px;
+  }
+
+  .footer-third-row {
+    justify-content: space-between;
+  }
+
+  .footer-third-row .wrapper-author-rss {
+    margin-left: 0;
+  }
+
+  .footer-wrapper form {
+    display: none;
+  }
 }
