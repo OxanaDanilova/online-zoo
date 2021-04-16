@@ -504,6 +504,7 @@ header nav {
   text-decoration-color: #fe9013;
   text-decoration-line: underline;
   text-decoration-style: solid;
+  cursor: pointer;
 }
 
 .pick-friend-third-text a:visited {
@@ -1106,8 +1107,6 @@ footer {
     height: 36px;  
   }
 
- 
-
  /*  .second-section {  
     height: 1829px;
   } */
@@ -1129,9 +1128,65 @@ footer {
     background-repeat: no-repeat;
   }
 
+  .third-section {
+    height: 826px;    
+  }
+  
+  .pick-friend-wrapper {
+    height: 796px;
+    width: 940px;  
+    margin-top: 30px; 
+  }
 
+  .pick-friend-title {
+    margin-top: 30px;
+  }
 
-  .third-section, .fourth-section {
+  .pick-friend-first-text {
+    margin-top: 20px;
+    margin-left: 49px;
+    width: 843px;
+    height: 29px;
+    align-self: start;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333b41;
+  }
+
+  .pick-friend-second-text {
+    margin-top: 20px;
+    margin-left: 49px;
+    align-self: start;
+    width: 813px; 
+  }
+
+  .pick-friend-third-text {
+    margin-top: 10px;
+    margin-left: 49px;
+    width: 823px;
+    height: 42px;
+    align-self: start;
+ 
+  }
+
+  .pick-friend-subtitle {
+    margin-top: 40px;  
+  }
+
+  .how-it-works-card {
+    width: 168px;
+    height: 244px;
+    border-radius: 5px;
+  }
+
+  .feed-friend-btn {
+    margin-top: 70px;  
+  }
+
+   .fourth-section {
     display: none;
   }
 
