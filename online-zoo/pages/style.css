@@ -1129,13 +1129,13 @@ footer {
   }
 
   .third-section {
-    height: 826px;    
+    height: 876px;    
   }
   
   .pick-friend-wrapper {
     height: 796px;
     width: 940px;  
-    margin-top: 30px; 
+    
   }
 
   .pick-friend-title {
@@ -1186,10 +1186,104 @@ footer {
     margin-top: 70px;  
   }
 
-   .fourth-section {
-    display: none;
+  .fourth-section {
+    height: 842px;  
   }
 
+  .testimonials-wrapper {
+    margin-top: 100px;
+    height: 608px;
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonials-cards {
+    height: 395px;
+    width: 940px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    overflow: hidden;
+  }
+
+  .testimonials-card {
+    width: 294px;
+    height: 391px;
+    background: #F5F7F6;
+    border-radius: 20px;
+    border: 2px solid rgba(254, 189, 171, 0.74);
+  }
+
+  .posting-data {
+    width: 144px; 
+  }
+
+  .testimonials-card__text {
+    margin: 10px 22px 19px 16px;
+    width: 255px;
+    height: 309px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #767474;
+    overflow: hidden;
+  }
+
+  .testimonials-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: 20px;
+    width: 390px;
+    height: 8px;
+    background: #f5f7f6;
+    border-radius: 5px;
+    position: relative;
+    border: 0.5px solid rgba(243, 169, 248, 0.66);
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+
+  .testimonials-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 75px;
+    height: 6px;
+    background: #fe9013;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .testimonials-bar::-moz-range-thumb {
+    width: 75px;
+    height: 6px;
+    background: #fe9013;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .leave-feedback-btn {
+    margin-top: 52px;
+    width: 298px;
+    height: 54px; 
+  }
+
+  .dekor-leav {
+    width: 196px;
+    height: 235px;
+    background-image: url(../assets/images/leav_foto-1000.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+ 
+ 
   .footer-wrapper {
     margin: 40px auto 50px auto;
     width: 939px;
