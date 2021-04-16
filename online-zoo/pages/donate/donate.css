@@ -31,8 +31,9 @@ header {
   width: 82px;
   height: 52px;
   margin-left: 220px;
-  border: 1.18841px solid #ffffff;
+  border: 1px solid #FFFFFF;
   box-sizing: border-box;
+  border-radius: 2px;
   text-decoration: none;
   position: relative;
   display: flex;
@@ -40,7 +41,7 @@ header {
 }
 
 .logo-text {
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19.0145px;
@@ -51,11 +52,12 @@ header {
 
 .logo-picture {
   background-image: url(../../assets/images/bamboo.svg);
-  width: 7.03px;
+  width: 10.03px;
   height: 20.98px;
   position: absolute;
-  top: 24.64px;
-  left: 13.23px;
+  background-repeat: no-repeat;
+  top: 21.64px;
+  left: 10.23px;
 }
 
 header nav {
@@ -71,7 +73,7 @@ header nav {
 
 .nav-menu-item a {
   text-decoration: none;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -152,6 +154,10 @@ header nav {
   font-size: 16px;
   line-height: 140%;
   color: #ffffff;
+}
+
+.donate-text span {
+  font-weight: 400;
 }
 
 .donate-information-title {
@@ -470,7 +476,7 @@ header nav {
   height: 54px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -520,6 +526,11 @@ footer {
   justify-content: space-between;
 }
 
+.footer-first-row .logo-wrapper {
+  border: 0.5px solid #FFFFFF;
+  border-radius: 2px;
+}
+
 .socials-nets-icons {
   display: none;
 }
@@ -536,7 +547,7 @@ footer {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 5px;
   border: none;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -578,7 +589,7 @@ footer {
 
 .socials-nets li a p {
   margin-left: 12px;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -614,7 +625,7 @@ footer {
 
 .footer-nav ul li a {
   text-decoration: none;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -623,7 +634,7 @@ footer {
 }
 
 .footer-first-row h6 {
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -643,7 +654,7 @@ footer {
   border: 0.7px solid #f9804b;
   background: none;
   padding-left: 10px;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -660,7 +671,7 @@ footer {
 }
 
 .email::placeholder {
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -683,7 +694,7 @@ footer {
   border: 1px solid #4b9200;
   box-sizing: border-box;
   border-radius: 5px;
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -693,7 +704,7 @@ footer {
 }
 
 .footer-third-row p {
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
@@ -714,6 +725,7 @@ footer {
   .logo-wrapper {
     margin-left: 30px;
     border: 1px solid #ffffff;
+    border-radius: 2px;
   }
 
   header nav {
@@ -786,6 +798,10 @@ footer {
     width: 939px;
   }
 
+  .footer-first-row .logo-wrapper {
+    border: 0.5px solid #FFFFFF;
+  }
+
   .footer-nav ul {
     width: 332px;
   }
@@ -812,11 +828,15 @@ footer {
     width: 640px;
   }
 
+  header {
+    height: 34px;
+  }
+
   .header-wrapper .logo-wrapper {
     width: 46.93px;
     height: 29.03px;
     margin-left: 20.07px;
-    border: 0.768116px solid #ffffff;
+    border: none;
   }
 
   .header-wrapper .logo-text {
@@ -826,10 +846,12 @@ footer {
   .header-wrapper .logo-picture {
     position: absolute;
     background-image: url(../../assets/images/bamboo.svg);
-    width: 4.54px;
+    background-repeat: no-repeat;
+    width: 10.54px;
     height: 13.56px;
-    left: 5.48px;
-    top: 13.99px;
+    left: 2.48px;
+    top: 10.99px;
+    
   }
 
   .nav-menu {
@@ -870,6 +892,10 @@ footer {
     margin-top: 20px;
     height: 154px;
     width: 600px;
+  }
+
+  .donate-text span {
+    font-weight: 400;
   }
 
   .donate-information-title {
@@ -945,6 +971,7 @@ footer {
 
   .pay-type-wrapper label {
     padding-left: 26px;
+    width: 58px;
   }
 
   .feed-friend-btn {
@@ -962,6 +989,11 @@ footer {
     grid-template-rows: 85px 56px 97px;
   }
 
+  .footer-first-row .logo-wrapper {
+    border: 0.5px solid #FFFFFF;
+    border-radius: 2px;
+  }
+
   .socials-nets {
     display: none;
   }
@@ -971,7 +1003,6 @@ footer {
   }
 
   .socials-nets-icons {
-    display: block;
     position: absolute;
     top: 0;
     right: 0;
@@ -1002,4 +1033,311 @@ footer {
   .footer-wrapper form {
     display: none;
   }
+}
+
+@media only screen and (max-width: 320px) {
+  .header-wrapper {
+    width: 320px;
+  }
+
+  header {
+    height: 34px;
+  
+  }
+
+  .header-wrapper .logo-wrapper {
+    margin-left: 10.07px;
+    border: none;
+  }
+
+  header nav {
+    margin-right: 10px;
+  }
+
+  .first-section {
+    height: 187px;
+    width: 320px;
+    background-image: url(../../assets/images/panda_bg-donate-320.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .second-section {
+    height: 1145px;
+  }
+
+  .second-section-wrapper {
+    width: 300px;
+  }
+
+  .donate-text {
+    margin-top: 20px;
+    height: 308px;
+    width: 300px;
+    letter-spacing: 0.3px;
+  }
+
+  .donate-text span {
+    font-weight: 400;
+  }
+
+  .donate-information-title {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .feed-friend-block {
+    height: 591px;
+    width: 300px;
+  }
+
+  .feed-friend-title {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .feed-friend-subtitle {
+    width: 300px;
+    height: 44px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .diet-block {
+    margin: 10.28px 0 0 0;
+    width: 300px;
+    height: 138.72px;    
+  }
+
+  .daily-diet {
+    width: 89.66px;
+    margin-top: 59.21px;
+  }
+
+  .daily-diet-number {
+    height: 32.71px;
+    font-size: 40.6015px;
+    line-height: 80%; 
+  }
+
+  .daily-diet-text {
+    margin-top: 6.2px;
+    width: 89.66px;
+    height: 12.41px;
+    font-size: 9.02255px;
+    line-height: 140%; 
+  }
+
+  .x-sign {
+    margin: 73.31px 0 0 6.2px;
+  }
+
+  .animal-diet-icon {
+    margin-left: 36.09px;
+    width: 160.15px;
+    height: 138.72px;
+  }
+
+  .amount-text {
+    margin: 0;
+  }
+
+  .progress-bar {
+    width: 300px;
+    height: 13.5px;
+    margin-top: 8px;
+  }
+
+  .progress-bar-line {
+    width: 262px; 
+    height: 1px;   
+  }
+
+  .progress-bar-line-item {
+    width: 5px;
+    height: 5px;
+
+  }
+
+  .progress-bar-line-item label {
+    position: absolute;
+    top: 13px;
+    left: -13px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;    
+  }
+
+  .progress-input-item {
+    width: 25px;
+    height: 25px;
+    top: -10px;
+    left: -10px;
+    z-index: 100;
+  }
+
+  .checkmark {
+    width: 5px;
+    height: 5px; 
+  }
+
+  .checkmark::after {
+    position: absolute;
+    content: "";
+    left: -8.7px;
+    top: -8.7px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid; 
+    border-color: #fe9013;
+  }
+
+  .checkmark::before {
+    position: absolute;
+    content: "";
+    left: -4px;
+    top: -4px;
+    width: 11.48px;
+    height: 11.48px;
+    border: 1px solid;  
+    border-color: #fe9013;
+  }
+
+  .another-amount-wrapper {
+   margin: 42px 0 0 0; 
+  }
+
+  .pay-type-wrapper {
+    margin-top: 30px;
+  }
+
+  .pay-type-wrapper label {
+    width: 58px;
+  }
+
+  footer {
+    height: 540px;
+  }
+
+  .footer-wrapper {
+    margin: 0;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-first-row {
+    justify-content: center;
+  }
+
+  .footer-wrapper .logo-wrapper {
+    border: none;
+    width: 129px;
+    height: 23px;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  .footer-wrapper .logo-picture {
+    background-image: url(../../assets/images/bamboo.svg);
+    background-repeat: no-repeat;
+    width: 11.03px;
+    height: 20.98px;
+    position: absolute;
+    top: -3px;
+    left: 72px;
+    z-index: 10;
+  }
+
+  .socials-nets-icons {
+    margin-top: 30px;
+    width: 194px;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    position: unset;
+    
+  }
+
+  .footer-wrapper form {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-first-row h6 {
+    font-size: 16px;
+    line-height: 140%;    
+  }
+
+  .subscribe-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .subscribe-wrapper {
+    align-items: center;
+  }
+
+  .submit-btn {
+    margin-top: 10px;
+  }
+
+  .footer-second-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .donate-volunteers {
+    margin-top: 40px;
+    display: grid;
+
+  }
+
+  .footer-first-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-third-row {
+    justify-content: unset;
+    align-items: unset;
+    flex-direction: column-reverse;
+  }
+
+  .footer-nav {
+    margin-top: 40px;
+    align-self: center;
+  }
+
+  .footer-nav ul {
+    width: 278px;
+   
+  }
+
+  .footer-third-row p {
+    font-size: 15px;
+    line-height: 120%;
+  
+  }
+
+  .wrapper-author-rss {
+    margin: 40px 10px 0 0;
+    align-self: flex-end;
+   
+  }
+
+
+
+
 }
