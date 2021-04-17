@@ -1343,7 +1343,7 @@ footer {
 
   .header-wrapper .logo-picture {
     position: absolute;
-    background-image: url(../../assets/images/bamboo.svg);
+    background-image: url(../assets/images/bamboo.svg);
     background-repeat: no-repeat;
     width: 10.54px;
     height: 13.56px;
@@ -1905,10 +1905,6 @@ height: 69.66px;
     margin-right: 10px;
   }
 
-   .fourth-section {
-    display: none;
-  }
-
   .wrapper-first-scr {
     height: 221px;
    background-image:none;
@@ -2222,6 +2218,112 @@ height: 69.66px;
     transform: rotate(84deg);
   }
 
+  .feed-friend-btn {
+    margin-top: 30px;    
+}
+
+.fourth-section {
+  height: 580px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.testimonials-wrapper {
+  margin-top: 30px;
+  height: unset;
+  width: 299px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #333b41;
+}
+
+.testimonials-cards {
+  height: 357px;
+  width: 299px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  overflow: hidden;
+}
+
+.testimonials-card {
+  width: 295px;
+  height: 105px;
+  background: #F5F7F6;
+  border-radius: 20px;
+  border: 2px solid rgba(254, 189, 171, 0.74);
+}
+
+.user-data-wrapper {
+  margin: 10px 0 0 12px;
+  display: flex;
+}
+
+.posting-data {
+  width: 168px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.testimonials-card__text {
+  margin: 10px 29px 12px 18px;
+  width: 252px;
+  height: 38px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  color: #767474;
+  overflow: hidden;
+}
+
+.leave-feedback-btn {
+  margin-top: 30px;
+  width: 240px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+}
+
+.dekor-leav {
+  width: 51px;
+  height: 64px;
+  background-image: url(../assets/images/leav_foto-land320.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
 
 
  
@@ -2252,7 +2354,7 @@ height: 69.66px;
   }
 
   .footer-wrapper .logo-picture {
-    background-image: url(../../assets/images/bamboo.svg);
+    background-image: url(../assets/images/bamboo.svg);
     background-repeat: no-repeat;
     width: 11.03px;
     height: 20.98px;
