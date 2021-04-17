@@ -1613,10 +1613,6 @@ footer {
  
   }
 
-  .fourth-section {
-    display: none;
-  }
-
   .pick-friend-wrapper {
     height: 741px;
     width: 640px;   
@@ -1909,7 +1905,7 @@ height: 69.66px;
     margin-right: 10px;
   }
 
-   .third-section, .fourth-section {
+   .fourth-section {
     display: none;
   }
 
@@ -2127,6 +2123,103 @@ height: 69.66px;
     background-image: url(../assets/images/strelitzia-about-1000.png);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .third-section {
+    height: 1082px;  
+ 
+  }
+
+  .pick-friend-wrapper {
+    height: 1042px;
+    width: 300px;   
+  }
+
+  .pick-friend-title {
+    margin-top: 20px;
+    width: 232px;
+    height: 29px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #fe9013;
+  }
+
+  .pick-friend-first-text {
+    margin: 20px auto 0 auto;     
+    width: 297px;
+    height: 66px;
+    align-self: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #333b41;
+  }
+
+  .pick-friend-second-text,
+  .pick-friend-third-text {
+    display: none;
+  }
+
+  .pick-friend-subtitle {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    color: #333b41;
+  }
+
+  .how-it-works-wrapper {
+    margin-top: 20px;
+    height: 706px;
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .how-it-works-card {
+    width: 168px;
+    height: 222px;
+    border-radius: 5px;
+  }
+
+  .how-it-works-card:not(:first-child) {
+    margin-top: 20px;
+  }
+
+  .how-it-works-text {
+    margin-top: 10px;
+    width: 168px;
+    height: 44px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333b41;
+  }
+
+  .how-it-works-left-arrow {
+    position: absolute;
+    top: 192px;
+    left: 140px;
+    transform: rotate(84deg);
+  }
+
+  .how-it-works-right-arrow {
+    position: absolute;
+    top: 430.85px;
+    left: 140px;
+    transform: rotate(84deg);
   }
 
 
