@@ -294,7 +294,11 @@ main {
   width: 1160px;
   position: absolute;
   bottom: 0;
-  background: linear-gradient(360deg, #FFFFFF -13.95%, rgba(255, 248, 248, 0) 88.37%);
+  background: linear-gradient(
+    360deg,
+    #ffffff -13.95%,
+    rgba(255, 248, 248, 0) 88.37%
+  );
 }
 
 .information-section-title {
@@ -388,11 +392,11 @@ main {
 }
 
 .range {
-  margin-top: 20px;  
+  margin-top: 20px;
 }
 
 .habitat {
-  margin-top: 28px;  
+  margin-top: 28px;
 }
 
 .general {
@@ -946,7 +950,6 @@ footer {
     justify-content: center;
     grid-area: donate;
   }
- 
 
   .footer-wrapper {
     margin: 40px auto 50px auto;
@@ -1240,8 +1243,6 @@ footer {
     align-items: center;
   }
 
-
-
   footer {
     height: 282px;
   }
@@ -1315,6 +1316,241 @@ footer {
 
   header nav {
     margin-right: 10px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .main-wrapper {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-section {
+    width: 299px;
+    margin-top: 20px;
+    grid-area: first;
+  }
+
+  .sidebar {
+    width: 62px;
+    height: 233px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 0;
+    top: 247px;
+    left: 10px;
+    align-self: flex-start;
+    grid-area: sidebar;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .sidebar-menu {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none;
+  }
+
+  .sidebar-menu-item:nth-child(4),
+  .sidebar-menu-item:nth-child(5),
+  .sidebar-menu-item:nth-child(6) {
+    display: none;
+  }
+
+  .sidebar-menu-item:not(:first-child) {
+    margin-top: 3px;
+  }
+
+  .camera-title {
+    width: 154px;
+    height: 29px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333b41;
+  }
+
+  .video-animal {
+    margin-top: 10px;
+    width: 299px;
+    height: 168px;
+  }
+
+  .animal-slider-section {
+    margin-top: 17px;
+    width: 189px;
+    height: 146px;
+    grid-area: slider;
+    align-self: flex-end;
+    position: relative;
+    margin-right: 27px;
+  }
+
+  .animal-slider {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 189px;
+    overflow: hidden;
+  }
+
+  .animal-slider-item:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .animal-cam {
+    width: 90px;
+    height: 68px;
+  }
+
+  .information-wrapper {
+    margin-top: 0;
+    /* height: 1852px; */
+    height: unset;
+    width: 320px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information-section {
+    margin-top: 60px;
+    padding-bottom: 80.55px;
+  }
+
+  .information-section-title {
+    width: 131px;
+    height: 29px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #4b9200;
+  }
+
+  .information-first-wrapper {
+    margin-top: 10px;
+    height: 561px;
+  }
+
+  .information-foto {
+    width: 319px;
+    height: 193px;
+    background-image: url(../../../assets/images/inf-panda-foto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .information-text {
+    width: 300px;
+    align-self: center;
+  }
+
+  .information-text p {
+    height: 264px;
+    width: 300px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ababab;
+  }
+
+  .feed-friend-btn {
+    margin-top: 30px;
+  }
+
+  .information-second-wrapper {
+    margin-top: 40px;
+    width: 300px;
+  }
+
+  .animal-information-block {
+    height: 2382px;
+  }
+
+  .short-text {
+    height: 376px;
+    overflow: hidden;
+  }
+
+  .strelitzia-zoos {
+    position: absolute;
+    background-image: url(../../../assets/images/strelitzia-zoo-1000.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 63px;
+    width: 85px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .leav-foto-zoos {
+    position: absolute;
+    background-image: url(../../../assets/images/leave_foto-zoo-320.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 67px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .section-donate {
+    height: 220px;
+    width: 320px;
+    background-image: url(../../../assets/images/donet-zoo-bg-320.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    grid-area: donate;
+  }
+
+  .donate-btn {
+    margin-top: 156px;
+    width: 298px;
+    height: 54px;
+    display: grid;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    border-radius: 25px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
   }
 
   footer {
