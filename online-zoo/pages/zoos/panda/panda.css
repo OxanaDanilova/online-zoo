@@ -24,14 +24,14 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
 }
 
 .logo-wrapper {
   width: 82px;
   height: 52px;
   margin-left: 220px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 2px;
   text-decoration: none;
@@ -83,34 +83,32 @@ header nav {
 
 .nav-menu-item a.activ,
 .footer-nav ul li a.activ {
-  color: #F9804B;
+  color: #f9804b;
   cursor: default;
 }
 
 .nav-menu-item a:hover,
 .footer-nav ul li a:hover {
-  color: #F9804B;  
+  color: #f9804b;
 }
 
 main {
   display: grid;
-  align-items: center;  
+  align-items: center;
   grid-template-areas:
     "sidebar first"
     "sidebar slider"
     "information information"
-    "donate donate";    
+    "donate donate";
   grid-template-columns: 135px auto;
-
 }
 
-.main-wrapper {  
+.main-wrapper {
   position: relative;
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -269,16 +267,34 @@ main {
   position: relative;
   grid-area: information;
   display: grid;
-
+  padding-bottom: 140px;
 }
 
 .information-wrapper {
   margin-top: 140px;
-  height: 1852px;
+  /* height: 1852px; */
   width: 1160px;
   justify-self: center;
-  
-  
+}
+
+.animal-information-block {
+  height: 1018px;
+}
+
+.short-text {
+  height: 259px;
+  overflow: hidden;
+  position: relative;
+}
+
+.short-text::after {
+  content: "";
+  display: block;
+  height: 70px;
+  width: 1160px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(360deg, #FFFFFF -13.95%, rgba(255, 248, 248, 0) 88.37%);
 }
 
 .information-section-title {
@@ -363,7 +379,7 @@ main {
 }
 
 .information-second-wrapper {
-  margin-top: 62px;  
+  margin-top: 62px;
 }
 
 .information-block {
@@ -372,11 +388,11 @@ main {
 }
 
 .range {
-  margin-top: 20px;
+  margin-top: 20px;  
 }
 
 .habitat {
-  margin-top: 28px;
+  margin-top: 28px;  
 }
 
 .general {
@@ -451,43 +467,41 @@ main {
 .leav-foto-zoos {
   position: absolute;
   background-image: url(../../../assets/images/leave_foto-zoos.png);
-  background-size: cover;  
+  background-size: cover;
   background-repeat: no-repeat;
   width: 220px;
   height: 200px;
   right: 0;
   bottom: 0;
-  
 }
 
 .section-donate {
-  height: 390px; 
+  height: 390px;
   background-image: url(../../../assets/images/panda_bg-zoos.png);
-  background-size: cover;  
-  background-repeat: no-repeat;  
+  background-size: cover;
+  background-repeat: no-repeat;
   display: grid;
   justify-content: center;
   grid-area: donate;
-  
 }
 
 .donate-btn {
   margin-top: 276px;
   width: 298px;
-height: 54px;
-display: grid;
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-border-radius: 25px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
-text-decoration: none;
-align-items: center;
+  height: 54px;
+  display: grid;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
 }
 
 footer {
@@ -508,7 +522,7 @@ footer {
 }
 
 .footer-first-row .logo-wrapper {
-  border: 0.5px solid #FFFFFF;
+  border: 0.5px solid #ffffff;
   border-radius: 2px;
 }
 
@@ -700,10 +714,9 @@ footer {
 
 @media only screen and (max-width: 1000px) {
   .wrapper-first-scr {
-    height: 584px;  
-   
+    height: 584px;
   }
-  
+
   .header-wrapper {
     width: 1000px;
   }
@@ -721,7 +734,7 @@ footer {
 
   .sidebar {
     width: 72px;
-    height: 438px;    
+    height: 438px;
     position: sticky;
     margin-top: 92px;
     top: 30px;
@@ -826,16 +839,114 @@ footer {
     margin-left: 30px;
   }
 
-  .information-section, .section-donate {
+  .information-wrapper {
+    margin-top: 100px;
+    /* height: 1910px; */
+    height: unset;
+    width: 940px;
+    justify-self: center;
+  }
+
+  .information-first-wrapper {
+    margin-top: 20px;
+    height: 458px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .information-first-wrapper::after {
     display: none;
   }
 
+  .information-foto {
+    width: 455x;
+    height: 458px;
+    background-image: url(../../../assets/images/inf-panda-foto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
+  .information-text {
+    width: 455px;
+  }
 
+  .information-text p {
+    height: 367px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #ababab;
+  }
 
+  .feed-friend-btn {
+    margin-top: 37px;
+  }
 
+  .information-second-wrapper {
+    margin-top: 60px;
+  }
 
+  .animal-information-block {
+    height: 1128px;
+  }
 
+  .short-text {
+    height: 259px;
+    overflow: hidden;
+  }
+
+  .range {
+    margin-top: 10px;
+    height: 46px;
+  }
+
+  .habitat {
+    margin-top: 10px;
+    height: 46px;
+  }
+
+  .read-less {
+    margin-top: 30px;
+  }
+
+  .strelitzia-zoos {
+    position: absolute;
+    background-image: url(../../../assets/images/strelitzia-zoo-1000.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 139px;
+    width: 187px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .leav-foto-zoos {
+    position: absolute;
+    background-image: url(../../../assets/images/leave_foto-zoo-1000.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 169px;
+    height: 171px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .section-donate {
+    height: 390px;
+    background-image: url(../../../assets/images/panda_bg-zoos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    grid-area: donate;
+  }
+ 
 
   .footer-wrapper {
     margin: 40px auto 50px auto;
@@ -843,7 +954,7 @@ footer {
   }
 
   .footer-first-row .logo-wrapper {
-    border: 0.5px solid #FFFFFF;
+    border: 0.5px solid #ffffff;
   }
 
   .footer-nav ul {
@@ -865,7 +976,6 @@ footer {
   .footer-third-row .wrapper-author-rss {
     margin-left: 71px;
   }
-
 }
 
 @media only screen and (max-width: 640px) {
@@ -896,7 +1006,6 @@ footer {
     height: 13.56px;
     left: 2.48px;
     top: 10.99px;
-    
   }
 
   .nav-menu {
@@ -917,8 +1026,7 @@ footer {
 
 
 
-
-
+  
 
   footer {
     height: 282px;
@@ -932,7 +1040,7 @@ footer {
   }
 
   .footer-first-row .logo-wrapper {
-    border: 0.5px solid #FFFFFF;
+    border: 0.5px solid #ffffff;
     border-radius: 2px;
   }
 
@@ -984,7 +1092,6 @@ footer {
 
   header {
     height: 34px;
-  
   }
 
   .header-wrapper .logo-wrapper {
@@ -995,10 +1102,6 @@ footer {
   header nav {
     margin-right: 10px;
   }
-
-
-
-
 
   footer {
     height: 540px;
@@ -1022,7 +1125,7 @@ footer {
     font-size: 19.0145px;
     line-height: 120%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 20px;
   }
 
@@ -1046,7 +1149,6 @@ footer {
     justify-content: space-between;
     list-style: none;
     position: unset;
-    
   }
 
   .footer-wrapper form {
@@ -1058,7 +1160,7 @@ footer {
 
   .footer-first-row h6 {
     font-size: 16px;
-    line-height: 140%;    
+    line-height: 140%;
   }
 
   .subscribe-wrapper {
@@ -1083,7 +1185,6 @@ footer {
   .donate-volunteers {
     margin-top: 40px;
     display: grid;
-
   }
 
   .footer-first-row {
@@ -1104,18 +1205,15 @@ footer {
 
   .footer-nav ul {
     width: 278px;
-   
   }
 
   .footer-third-row p {
     font-size: 15px;
     line-height: 120%;
-  
   }
 
   .wrapper-author-rss {
     margin: 40px 10px 0 0;
     align-self: flex-end;
-   
   }
 }
