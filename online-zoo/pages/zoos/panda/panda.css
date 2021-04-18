@@ -735,7 +735,7 @@ footer {
   .sidebar {
     width: 72px;
     height: 438px;
-    position: sticky;
+    position: relative;
     margin-top: 92px;
     top: 30px;
     left: 30px;
@@ -754,7 +754,7 @@ footer {
   }
 
   .sidebar-menu-item:not(:first-child) {
-    margin-top: 9px;
+    margin-top: 7px;
   }
 
   .sidebar-menu-item a {
@@ -1024,9 +1024,223 @@ footer {
     margin-right: 20px;
   }
 
+  .sidebar {
+    position: relative;
+    margin-top: 47px;
+  }
+
+  main {
+    display: grid;
+    align-items: center;
+    grid-template-areas:
+      "sidebar first"
+      "sidebar slider"
+      "information information"
+      "donate donate";
+    grid-template-columns: 125px auto;
+  }
+
+  .main-wrapper {
+    align-items: flex-start;
+  }
+
+  .first-section {
+    width: 495px;
+    margin-top: 20px;
+    justify-self: center;
+    grid-area: first;
+  }
+
+  .camera-title {
+    width: 495px;
+    height: 47px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 120%;
+    color: #333b41;
+  }
+
+  .video-animal {
+    margin-top: 10px;
+    width: 495px;
+    height: 278px;
+  }
+
+  .animal-slider-section {
+    margin-top: 20px;
+    width: 495px;
+    height: 140px;
+    grid-area: slider;
+    justify-self: center;
+    position: relative;
+  }
+
+  .animal-slider {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 390px;
+    overflow: hidden;
+  }
+
+  .animal-cam {
+    width: 180px;
+    height: 140px;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 42.81px;
+    height: 42.81px;
+  }
+
+  .arrow-right {
+    top: 24px;
+    right: 30px;
+  }
+
+  .arrow-left {
+    top: 74px;
+    right: 30px;
+  }
+
+  .information-section {
+    padding-bottom: 147px;
+  }
+
+  .information-wrapper {
+    margin-top: 60px;
+    /* height: 1910px; */
+    height: unset;
+    width: 600px;
+    justify-self: center;
+  }
+
+  .information-section-title {
+    width: 262px;
+    height: 58px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #4b9200;
+  }
+
+  .information-first-wrapper {
+    margin-top: 20px;
+    height: 764px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .information-foto {
+    width: 390px;
+    height: 393px;
+    background-image: url(../../../assets/images/inf-panda-foto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .information-text {
+    width: 600px;
+    display: grid;
+  }
+
+  .information-text p {
+    margin-top: 30px;
+    height: 341px;
+    width: 420px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #ababab;
+  }
+
+  .feed-friend-btn {
+    margin-top: 40px;
+    justify-self: center;
+  }
+
+  .animal-information-block {
+    height: 1437px;
+  }
+
+  .short-text {
+    height: 259px;
+    overflow: hidden;
+  }
+
+  .information-second-wrapper {
+    margin-top: 60px;
+  }
+
+  .information-block:first-child {
+    align-items: unset;
+  }
+
+  .strelitzia-zoos {
+    position: absolute;
+    background-image: url(../../../assets/images/strelitzia-zoo-1000.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 107px;
+    width: 144px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+
+  .leav-foto-zoos {
+    position: absolute;
+    background-image: url(../../../assets/images/leave_foto-zoo-640.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 126px;
+    height: 106px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .section-donate {
+    height: 293px;
+    background-image: url(../../../assets/images/panda_bg-zoos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    grid-area: donate;
+  }
+
+  .donate-btn {
+    margin-top: 199px;
+    width: 298px;
+    height: 54px;
+    display: grid;
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+    border-radius: 25px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+  }
 
 
-  
 
   footer {
     height: 282px;
