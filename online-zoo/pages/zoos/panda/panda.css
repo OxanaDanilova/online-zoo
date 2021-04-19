@@ -6,6 +6,7 @@
 body {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 header {
@@ -716,7 +717,7 @@ footer {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1580px) {
   .wrapper-first-scr {
     height: 584px;
   }
@@ -981,7 +982,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 980px) {
   .header-wrapper {
     width: 640px;
   }
@@ -1043,8 +1044,12 @@ footer {
     grid-template-columns: 125px auto;
   }
 
-  .main-wrapper {
+  /* .main-wrapper {
     align-items: flex-start;
+  } */
+
+  .main-wrapper {
+    align-items: center;   
   }
 
   .first-section {
@@ -1245,6 +1250,8 @@ footer {
 
   footer {
     height: 282px;
+    display: flex;
+    justify-content: center;
   }
 
   .footer-wrapper {
@@ -1300,7 +1307,13 @@ footer {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width:640px) {
+  .main-wrapper {
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 625px) {
   .header-wrapper {
     width: 320px;
   }
@@ -1438,6 +1451,7 @@ footer {
   .information-section {
     margin-top: 60px;
     padding-bottom: 80.55px;
+    width: 100vw;
   }
 
   .information-section-title {
@@ -1525,7 +1539,8 @@ footer {
 
   .section-donate {
     height: 220px;
-    width: 320px;
+    /* width: 320px; */
+    width: 100vw;
     background-image: url(../../../assets/images/donet-zoo-bg-320.png);
     background-size: cover;
     background-repeat: no-repeat;

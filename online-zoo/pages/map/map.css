@@ -608,7 +608,7 @@ footer {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1580px) {
   .wrapper-first-scr {
     height: 584px;
   }
@@ -882,7 +882,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 980px) {
   .header-wrapper {
     width: 640px;
   }
@@ -1135,6 +1135,8 @@ footer {
 
   footer {
     height: 282px;
+    display: flex;
+    justify-content: center;
   }
 
   .footer-wrapper {
@@ -1190,7 +1192,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 625px) {
   .header-wrapper {
     width: 320px;
   }

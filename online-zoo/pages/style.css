@@ -6,6 +6,7 @@
 body {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .wrapper-first-scr {
@@ -106,7 +107,7 @@ header nav {
 }
 
 .ellips {
-  width: 465px;
+  width: 465px; 
   height: 465px;
   margin: 12px 0 0 807px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
@@ -971,7 +972,7 @@ footer {
   margin-top: 10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1580px) {
   .wrapper-first-scr {
     height: 584px;  
    
@@ -1321,7 +1322,7 @@ footer {
  
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 980px) {
   .header-wrapper {
     width: 640px;
   }
@@ -1830,6 +1831,8 @@ height: 69.66px;
  
 
   footer {
+    display: flex;
+    justify-content: center;
     height: 282px;
   }
 
@@ -1886,7 +1889,9 @@ height: 69.66px;
   }
 }
 
-@media only screen and (max-width: 320px) {
+
+
+@media only screen and (max-width: 625px) {
   .header-wrapper {
     width: 320px;
   }
@@ -1912,7 +1917,7 @@ height: 69.66px;
 
   .first-section {
     height: 187px;
-    width: 320px;
+    width: 100vw; /* 320px; */
     background-image: url(../assets/images/Giant-Panda.png);
     background-position: center;
     background-size: cover;
@@ -2328,7 +2333,7 @@ height: 69.66px;
 
  
   footer {
-    height: 540px;
+    height: 540px;    
   }
 
   .footer-wrapper {
