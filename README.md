@@ -7,3 +7,7 @@ Project consists of different pages: About, Map, Zoos (Gorilla, Alligator, Panda
 ## Skills:
 
 HTML, CSS, Flexbox Layout , Grid Layout
+
+## Demo:
+
+https://oxanadanilova.github.io/online-zoo/
