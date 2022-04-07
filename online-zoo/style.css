@@ -11,7 +11,7 @@ body {
 
 .wrapper-first-scr {
   height: 780px;
-  background-image: url(../assets/images/Giant-Panda.png);
+  background-image: url(assets/images/Giant-Panda.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ header {
 }
 
 .logo-picture {
-  background-image: url(../assets/images/bamboo.svg);
+  background-image: url(assets/images/bamboo.svg);
   width: 7.03px;
   height: 20.98px;
   position: absolute;
@@ -171,7 +171,7 @@ header nav {
   top: 12px;
   width: 200px;
   height: 605px;
-  background-image: url(../assets/images/flower_foto1.png);
+  background-image: url(assets/images/flower_foto1.png);
   background-repeat: no-repeat;
 }
 
@@ -196,7 +196,7 @@ header nav {
 .backstage-picture {
   width: 609px;
   height: 403px;
-  background-image: url(../assets/images/bamboo-cap.png);
+  background-image: url(assets/images/bamboo-cap.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -387,7 +387,7 @@ header nav {
   bottom: 0;
   width: 292px;
   height: 460px;
-  background-image: url(../assets/images/palm_foto.png);
+  background-image: url(assets/images/palm_foto.png);
   background-repeat: no-repeat;
 }
 
@@ -397,7 +397,7 @@ header nav {
   bottom: 0;
   width: 368px;
   height: 275px;
-  background-image: url(../assets/images/strelitzia.png);
+  background-image: url(assets/images/strelitzia.png);
   background-repeat: no-repeat;
 }
 
@@ -750,7 +750,7 @@ header nav {
 .dekor-leav {
   width: 247px;
   height: 296px;
-  background-image: url(../assets/images/leav_foto.png);
+  background-image: url(assets/images/leav_foto.png);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1109,7 +1109,7 @@ footer {
   .strelitzia-decor {
     width: 241px;
     height: 180px;
-    background-image: url(../assets/images/strelitzia-about-1000.png);
+    background-image: url(assets/images/strelitzia-about-1000.png);
   }
 
   .palm-decor {
@@ -1118,7 +1118,7 @@ footer {
     bottom: 0;
     width: 194px;
     height: 202px;
-    background-image: url(../assets/images/palm_foto-1000.png);
+    background-image: url(assets/images/palm_foto-1000.png);
     background-repeat: no-repeat;
   }
 
@@ -1267,7 +1267,7 @@ footer {
   .dekor-leav {
     width: 196px;
     height: 235px;
-    background-image: url(../assets/images/leav_foto-1000.png);
+    background-image: url(assets/images/leav_foto-1000.png);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -1326,7 +1326,7 @@ footer {
 
   .header-wrapper .logo-picture {
     position: absolute;
-    background-image: url(../assets/images/bamboo.svg);
+    background-image: url(assets/images/bamboo.svg);
     background-repeat: no-repeat;
     width: 10.54px;
     height: 13.56px;
@@ -1352,7 +1352,7 @@ footer {
 
   .wrapper-first-scr {
     height: 373px;
-    background-image: url(../assets/images/panda-landing-640.png);
+    background-image: url(assets/images/panda-landing-640.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1420,7 +1420,7 @@ footer {
     top: 0;
     width: 128px;
     height: 476px;
-    background-image: url(../assets/images/flower_foto1.png);
+    background-image: url(assets/images/flower_foto1.png);
     background-repeat: no-repeat;
     display: block;
     background-size: cover;
@@ -1571,7 +1571,7 @@ footer {
     bottom: 0;
     width: 175px;
     height: 131px;
-    background-image: url(../assets/images/strelitzia.png);
+    background-image: url(assets/images/strelitzia.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1582,7 +1582,7 @@ footer {
     bottom: 0;
     width: 134px;
     height: 202px;
-    background-image: url(../assets/images/palm_foto.png);
+    background-image: url(assets/images/palm_foto.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1794,7 +1794,7 @@ footer {
   .dekor-leav {
     width: 116px;
     height: 135px;
-    background-image: url(../assets/images/leav_foto-landing-640.png);
+    background-image: url(assets/images/leav_foto-landing-640.png);
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -1886,7 +1886,7 @@ footer {
   .first-section {
     height: 187px;
     width: 100vw; /* 320px; */
-    background-image: url(../assets/images/Giant-Panda.png);
+    background-image: url(assets/images/Giant-Panda.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1951,7 +1951,7 @@ footer {
     top: 38px;
     width: 31px;
     height: 217px;
-    background-image: url(../assets/images/flower_foto1.png);
+    background-image: url(assets/images/flower_foto1.png);
     background-repeat: no-repeat;
     display: block;
     background-size: cover;
@@ -2076,7 +2076,7 @@ footer {
     bottom: 0;
     width: 48px;
     height: 72px;
-    background-image: url(../assets/images/palm_foto-1000.png);
+    background-image: url(assets/images/palm_foto-1000.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2088,7 +2088,7 @@ footer {
     bottom: 0;
     width: 68px;
     height: 70px;
-    background-image: url(../assets/images/strelitzia-about-1000.png);
+    background-image: url(assets/images/strelitzia-about-1000.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -2286,7 +2286,7 @@ footer {
   .dekor-leav {
     width: 51px;
     height: 64px;
-    background-image: url(../assets/images/leav_foto-land320.png);
+    background-image: url(assets/images/leav_foto-land320.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -2321,7 +2321,7 @@ footer {
   }
 
   .footer-wrapper .logo-picture {
-    background-image: url(../assets/images/bamboo.svg);
+    background-image: url(assets/images/bamboo.svg);
     background-repeat: no-repeat;
     width: 11.03px;
     height: 20.98px;
