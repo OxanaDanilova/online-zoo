@@ -11,3 +11,5 @@ HTML, CSS, Flexbox Layout , Grid Layout
 ## Demo:
 
 https://oxanadanilova.github.io/online-zoo/
+
+## SPA version of the project with HTML, SCSS, REACT,TypeScript - https://github.com/OxanaDanilova/online-zoo-ts
